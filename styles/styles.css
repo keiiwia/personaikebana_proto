@@ -1,0 +1,73 @@
+/* fonts */
+@font-face {
+    src: url();
+    font-family: "cemer", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+.big-shoulders {
+    font-family: "bigshoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+.afacad {
+    font-family: "afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* @font-face {
+    font-family:"bigshoulders", sans-serif;
+    src: url(/ikebanaroughs/fonts/BigShoulders-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+} */
+
+
+html{
+    background-color: #D9D9D9;
+}
+
+/* title div styling */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title h1{
+    font-family: "cemer", sans-serif;
+    font-size: clamp(1rem, 4vw, 5.5rem);
+    text-align: center;
+    margin-bottom: 0.1em;
+    letter-spacing: 0.05em;
+}
+
+.title h3{
+    font-family: "bigshoulders", sans-serif;
+    text-align: center;
+    font-size: clamp(0.5rem, 1.5vw, 3rem);
+    /* margin: 0.2em 0; */
+    margin-top: 0;
+}
+
+.enter-button{
+    background-color: #E5625E;
+    font-family: "afacad", sans-serif;
+    font-size: clamp(1rem, 2vw, 2rem);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.enter-button:hover{
+    background-color: #BDD358;
+}
