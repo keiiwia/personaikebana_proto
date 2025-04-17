@@ -12,19 +12,37 @@
 
     <link rel="stylesheet" href="/personaikebana_proto/styles/styles.css">
     <link rel="stylesheet" href="/personaikebana_proto/styles/menu.css">
+    <link rel="stylesheet" href="/personaikebana_proto/styles/navigation.css">
     
     
     <title>customize your color</title>
 </head>
 <body>
+  <header>
+    <div class="navbar">
+        <ul>
+            <li><a href="menu.html">menu</a> 
+                <img class="popupimg vessel" src="/personaikebana_proto/assets/vessels/vessels.gif" draggable="false"></li>
+            <li><a href="qvessels.html">vessel?</a>
+                <img class="popupimg st" src="/personaikebana_proto/assets/shells/shells.gif" draggable="false"></li>
+            <li><a href="qshells.html">shell?</a></li>
+            <li><a href="qdevice.html">device?</a></li>
+            <li><a href="qdrink.html">drink?</a></li>
+            <li><a href="qcolor.html">color?</a></li>
+        </ul>
+        </div>
+</header>
   <!-- menu title -->
     <div class="heading">
-        <p id="desc">fresh from the source</p>
         <h1 id="title">if you could be any color, which would you be?</h1>
-        <p id="desc">daily, catered picks</p>
     </div>
     <div class="description">
-      <p>pick your picks:</p>
+      <p>pick your color:</p>
+    </div>
+
+    <div class="colorpicker">
+      <!-- <label for="favcolor">Select your favorite color:</label> -->
+      <input type="color" id="favcolor" value="#ff0000">
     </div>
 
     </body>

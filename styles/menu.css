@@ -40,7 +40,12 @@
     align-items: center;
     height: 30vh;
     font-family: "cemer", sans-serif;
-    font-size: 400%;
+    /* font-size: 400%; */
+    font-size: clamp(2rem, 3vw, 4rem);
+    max-width: 90%;      
+    padding: 0 2rem;     /* side padding */
+    margin: 0 auto;      /* horizontal centering */
+    text-align: center;  
 }
   .heading, .desc{
     font-family: "afacad", sans-serif;

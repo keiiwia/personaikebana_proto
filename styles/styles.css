@@ -71,3 +71,22 @@ html{
 .enter-button:hover{
     background-color: #BDD358;
 }
+
+
+.colorpicker{
+    font-family: "Big Shoulders", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 8em;
+}
+
+input{
+    height: 20em;
+    width: 50%;
+    border-style: dotted;
+    border-width: 0.1em;
+    border-radius: 1em;
+}
