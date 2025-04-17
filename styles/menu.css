@@ -47,6 +47,10 @@
     margin: 0 auto;      /* horizontal centering */
     text-align: center;  
 }
+
+#title{
+  line-height: 1em;
+}
   .heading, .desc{
     font-family: "afacad", sans-serif;
   }
