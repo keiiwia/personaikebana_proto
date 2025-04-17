@@ -96,7 +96,7 @@
   }
     .vessel {
       left: 38%;
-      width: 30%;
+      width: 25%;
     }
     .st {
       left: 45%;
@@ -107,16 +107,16 @@
       width: 30%;
     }
     .led {
-      left: 30%;
-      width: 30%;
+      left: 50%;
+      width: 26%;
     }
     .bnd {
       left: 36%;
       width: 25%;
     }
     .receipt {
-      left: 40%;
-      width: 20%;
+      left: 45%;
+      width: 25%;
     }
 
 @media only screen and (max-width: 515px){
