@@ -78,7 +78,7 @@
     padding-left: 50px;
     padding-right: 50px;
     /* border-top: 2mm ridge rgba(211, 220, 50, 0.6); */
-    border-bottom: 2mm ridge rgba(211, 220, 50, 0.6);
+    border-bottom: 2mm ridge #d3dc3299;
     background-color: none;
     text-decoration: none;
     color: #E5625E;
@@ -89,7 +89,8 @@
 }
 
 .works-row:hover .worksname {
-    color: #BDD358;
+    /* color: #BDD358; */
+    color: #90c048;
     padding: 1dvw;
   }
 

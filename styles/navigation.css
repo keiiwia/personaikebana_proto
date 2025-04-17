@@ -43,10 +43,11 @@
   }
   li a {
     display: block;
-    color: #228b22;
+    color: #618b22;
     text-align: center;
     padding: 0.7em 2em;
-    text-decoration: forestgreen wavy overline;
+    /* text-decoration: forestgreen wavy overline; */
+    text-decoration: solid underline #d3dc3299;
     font-family: "Big Shoulders", sans-serif;
     font-size: 30px;
   }
