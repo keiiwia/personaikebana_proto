@@ -21,6 +21,20 @@ body {
     filter: grayscale(100%);
     transition: filter 0.3s ease, transform 0.3s ease;
   }
+
+  .image-larger {
+    width: 29vw; /* responsive image size */
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+
+  .image-largest {
+    width: 23vw; /* responsive image size */
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
   
   .caption {
     position: absolute;
@@ -40,6 +54,16 @@ body {
   }
   
   .item:hover .image {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+  }
+
+  .item:hover .image-larger {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+  }
+
+  .item:hover .image-largest {
     filter: grayscale(0%);
     transform: scale(1.05);
   }
