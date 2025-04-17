@@ -1,3 +1,25 @@
+/* fonts */
+@font-face {
+    src: url();
+    font-family: "cemer", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+.big-shoulders {
+    font-family: "bigshoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+.afacad {
+    font-family: "afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* menu css */
 .image-preview{
     position: absolute;
     top: 0;
@@ -12,10 +34,109 @@
     z-index: 1;
 }
 
-.lists{
-    position: relative;
-    z-index: 2;
-    font-size: 3rem;
+.heading, .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-family: "cemer", sans-serif;
+    font-size: 400%;
+}
+  .heading, .desc{
+    font-family: "afacad", sans-serif;
+  }
+  
+.description{
+  font-family: "afacad", sans-serif;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main menu*/
+.works-grid {
+    display: grid;
+    grid-template-rows: repeat(10, 8dvw);
     font-family: "bigshoulders", sans-serif;
-    list-style: none;
+}
+
+.works-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border-top: 2mm ridge rgba(211, 220, 50, 0.6); */
+    border-bottom: 2mm ridge rgba(211, 220, 50, 0.6);
+    background-color: none;
+    text-decoration: none;
+    color: #E5625E;
+    
+}
+.works-row:last-of-type{
+    border: none;
+}
+
+.works-row:hover .worksname {
+    color: #BDD358;
+    padding: 1dvw;
+  }
+
+.works-row:hover .popupimg {
+    opacity: 1;
+  }
+
+.popupimg{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+    pointer-events: none;
+  }
+    .vessel {
+      left: 38%;
+      width: 30%;
+    }
+    .st {
+      left: 45%;
+      width: 20%;
+    }
+    .kc {
+      left: 33%;
+      width: 30%;
+    }
+    .led {
+      left: 30%;
+      width: 30%;
+    }
+    .bnd {
+      left: 36%;
+      width: 25%;
+    }
+    .receipt {
+      left: 40%;
+      width: 20%;
+    }
+
+@media only screen and (max-width: 515px){
+.works-grid {
+    grid-template-rows: repeat(10, 17dvw);
+}
+
+.collab {
+    left: 42%;
+}
+.kc {
+    left: 44%;
+    width: 22%;
+}
+.led {
+    left: 36%;
+    width: 22%;
+}
+.td {
+    left: 45%;
+    width: 20%;
+}
 }

@@ -7,7 +7,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
 .big-shoulders {
-    font-family: "bigshoulders", sans-serif;
+    font-family: "Big Shoulders", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -49,7 +49,7 @@ html{
 }
 
 .title h3{
-    font-family: "bigshoulders", sans-serif;
+    font-family: "Big Shoulders", sans-serif;
     text-align: center;
     font-size: clamp(0.5rem, 1.5vw, 3rem);
     /* margin: 0.2em 0; */

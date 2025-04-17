@@ -1,0 +1,91 @@
+/* fonts */
+@font-face {
+    src: url();
+    font-family: "cemer", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.big-shoulders {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.afacad {
+    font-family: "afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* navigation bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding-top: 2em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  li a {
+    display: block;
+    color: #228b22;
+    text-align: center;
+    padding: 0.7em 2em;
+    text-decoration: forestgreen wavy overline;
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 30px;
+  }
+  li a:hover {
+    color: #f2973d;
+    text-decoration-color: #f2973d;
+  }
+
+  li a:hover .popupimg {
+    opacity: 1;
+  }
+
+  .popupimg{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+    pointer-events: none;
+  }
+    .vessel {
+      left: 38%;
+      width: 30%;
+    }
+    .st {
+      left: 45%;
+      width: 20%;
+    }
+    .kc {
+      left: 33%;
+      width: 30%;
+    }
+    .led {
+      left: 30%;
+      width: 30%;
+    }
+    .bnd {
+      left: 36%;
+      width: 25%;
+    }
+    .receipt {
+      left: 40%;
+      width: 20%;
+    }
