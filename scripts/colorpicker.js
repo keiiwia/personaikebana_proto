@@ -19,6 +19,7 @@ const colorPicker = document.getElementById('color-picker');
 window.addEventListener('DOMContentLoaded', () => {
     const savedColor = localStorage.getItem('bgColor');
     if (savedColor) {
+      document.documentElement.style.backgroundColor = savedColor;
       document.body.style.backgroundColor = savedColor;
       colorPicker.value = savedColor;
     }
